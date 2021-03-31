@@ -7,8 +7,8 @@ contract CoreenCoinTest {
     mapping (address => uint256) public balanceOf;
 
     // Modify this section
-    string public name = "Coreen Coin Test";
-    string public symbol = "CORTEST";
+    string public name = "Coreen Coin";
+    string public symbol = "CRC";
     uint8 public decimals = 18;
     uint256 public totalSupply = 10000000 * (uint256(10) ** decimals);
 
