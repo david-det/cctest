@@ -2,7 +2,7 @@
 
 pragma solidity 0.6.6;
 
-contract CoreenCoinTest {
+contract CoreenCoin {
     // Track how many tokens are owned by each address.
     mapping (address => uint256) public balanceOf;
 
